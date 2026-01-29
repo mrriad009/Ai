@@ -80,31 +80,6 @@ gantt
 
 ---
 
-## 🛠️ Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/wisework-ai.git
-cd wisework-ai
-```
-
-### 2️⃣ Environment Configuration
-Create a `.env` file in the `server` directory:
-```env
-PORT=5000
-AI_API_KEY=your_secret_key_here
-```
-
-### 3️⃣ Installation & Boot
-```bash
-# Install dependencies
-npm run install:all
-
-# Launch Development Servers
-npm run dev
-```
-
----
 
 <div align="center">
   <sub>Built with ❤️ for Excellence in AI Recruitment.</sub>
