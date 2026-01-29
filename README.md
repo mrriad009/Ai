@@ -49,34 +49,46 @@
 
 ---
 
-## 📅 6-Week Timeline
+## 📅 6-Week Implementation Roadmap
+
+> [!NOTE]
+> This roadmap outlines the strategic rollout of WiseWork's core features. Each phase is designed to build upon the previous, ensuring a stable and data-driven recruitment platform.
 
 ```mermaid
 gantt
-    title WiseWork Implementation Roadmap
+    title WiseWork Development Cycle
     dateFormat  YYYY-MM-DD
-    section Phase 1
-    Foundation & UI Setup     :active, p1, 2026-02-01, 7d
-    section Phase 2
-    Backend & AI Engine       :p2, after p1, 7d
-    section Phase 3
-    Frontend Integration      :p3, after p2, 7d
-    section Phase 4
-    LinkedIn Intelligence     :p4, after p3, 7d
-    section Phase 5
-    Dashboard & Ranking       :p5, after p4, 7d
-    section Phase 6
-    Testing & Optimization    :p6, after p5, 7d
+    axisFormat  Week %W
+    
+    section Phase 1: Foundation
+    UI Design System & Scaffolding :active, w1, 2026-02-01, 7d
+    
+    section Phase 2: Core Engine
+    LLM Integration & PDF Parsing  :w2, after w1, 7d
+    
+    section Phase 3: Middleware
+    File Upload & API Architecture :w3, after w2, 7d
+    
+    section Phase 4: Intelligence
+    LinkedIn Scraper & Analysis    :w4, after w3, 7d
+    
+    section Phase 5: Synthesis
+    Ranking Logic & Final Dashboard :w5, after w4, 7d
+    
+    section Phase 6: Delivery
+    QA, Tuning & Documentation     :w6, after w5, 7d
 ```
 
-| Week | Milestone | Deliverables |
-| :--- | :--- | :--- |
-| **W1** | **Foundation** | UI Design System, Project Scaffolding |
-| **W2** | **AI Engine** | LLM Integration, PDF Parsing Service |
-| **W3** | **Architecture** | File Upload API, Real-time Loading UI |
-| **W4** | **Connectivity** | LinkedIn Profile Scraper/Summarizer |
-| **W5** | **Intelligence** | Dynamic Ranking Algorithm, Final Dashboard |
-| **W6** | **Polish** | Performance Tuning, Final Documentation |
+### 🎯 Milestone Breakdown
+
+| Phase | Milestone | Primary Deliverables | Status |
+| :--- | :--- | :--- | :--- |
+| **W1** | **Foundational UI** | Atomic Design System, Layout Scaffolding, Theme Config | 🟢 Complete |
+| **W2** | **AI Core** | Gemini/OpenAI Integration, Multi-format Parsers | 🟡 In Dev |
+| **W3** | **API Layer** | Secure File Handling, Real-time Processing Hooks | ⚪ Planned |
+| **W4** | **Data Synergy** | LinkedIn Profile Summarization, Resume Contextualization | ⚪ Planned |
+| **W5** | **AI Analytics** | Predictive Scoring Algorithm, Comparative Visuals | ⚪ Planned |
+| **W6** | **Optimization** | Performance Audits, API Rate Limiting, User Manuals | ⚪ Planned |
 
 ---
 
